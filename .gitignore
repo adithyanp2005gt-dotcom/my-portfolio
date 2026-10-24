@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*.local
+*.tsbuildinfo
+
+# Test and report artifacts
+playwright-report/
+test-results/
+.playwright/
+
+# Environment files
+.env
+.env*.local
+*.env
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.sqlite
+*.sqlite3
+database.db
+apps/api/database.db
+apps/api/logs/*.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
