@@ -3,24 +3,24 @@ import { TimelineItem } from '../types/portfolio';
 export const educationList: TimelineItem[] = [
   {
     id: 'degree-ug',
-    roleOrDegree: 'Bachelor of Technology (B.Tech) in Electronics & Communication Engineering',
+    roleOrDegree: 'Bachelor of Technology (B.Tech) in Artificial Intelligence and Machine Learning',
     institutionOrCompany: '[PLACEHOLDER: University Name]',
     duration: '2022 - 2026',
     achievements: [
-      '[PLACEHOLDER: Achievement/Award] Maintained a high GPA, focusing on Embedded Control Systems and Signal Processing.',
+      '[PLACEHOLDER: Achievement/Award] Maintained a high GPA, focusing on Deep Learning, Machine Learning Models, and Intelligent Systems.',
       '[PLACEHOLDER: Project/Leadership] Lead developer for the robotics club, design of autonomous rovers.',
       '[PLACEHOLDER: Academic Achievement] Published a minor study on edge computing nodes for local sensor classification.'
     ],
     coursework: [
-      'Microcontrollers & Embedded Systems',
-      'Digital Signal Processing',
+      'Machine Learning & Deep Learning',
       'Artificial Intelligence & Neural Networks',
-      'Control Systems Engineering',
-      'Object-Oriented Programming & Data Structures'
+      'Data Structures & Algorithms',
+      'Computer Vision & Natural Language Processing',
+      'Reinforcement Learning & Pattern Recognition'
     ],
     certifications: [
       '[PLACEHOLDER: Certification] TensorFlow Developer Specialization',
-      '[PLACEHOLDER: Certification] RTOS Systems & Firmware Architecture Course'
+      '[PLACEHOLDER: Certification] Deep Learning Specialization'
     ]
   },
   {
