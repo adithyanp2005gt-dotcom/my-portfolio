@@ -13,3 +13,9 @@ services:
         value: production
       - key: DEBUG
         value: "false"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: "https://adithyan-p-adhi-creations.vercel.app,http://localhost:5173,http://localhost:4173,http://localhost:3000"
+      - key: PORTFOLIO_URL
+        value: "https://adithyan-p-adhi-creations.vercel.app"
