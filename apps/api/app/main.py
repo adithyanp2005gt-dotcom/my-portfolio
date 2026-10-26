@@ -75,3 +75,21 @@ app.mount(
     StaticFiles(directory=settings.LOCAL_STORAGE_PATH),
     name="uploads"
 )
+
+
+@app.get("/", tags=["Root"])
+async def root():
+    """Root status endpoint returning service info and documentation links."""
+    return {
+        "status": "online",
+        "app": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "docs": "/docs",
+        "endpoints": {
+            "projects": f"{settings.API_V1_PREFIX}/projects",
+            "skills": f"{settings.API_V1_PREFIX}/skills",
+            "research": f"{settings.API_V1_PREFIX}/research",
+            "settings": f"{settings.API_V1_PREFIX}/settings"
+        }
+    }
+
