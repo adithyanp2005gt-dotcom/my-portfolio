@@ -81,9 +81,22 @@ export const injectPersonSchema = (): void => {
     '@context': 'https://schema.org',
     '@type': 'Person',
     'name': 'ADITHYAN P',
+    'alternateName': [
+      'Adhi Creations',
+      'adithyan p adhi creations',
+      'atithyan p adhi creations',
+      'Adithyan P',
+      'Adithyan',
+      'Aadhi Creations'
+    ],
     'jobTitle': 'AI & ML Engineer',
     'description': 'I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering.',
     'url': window.location.origin,
+    'image': `${window.location.origin}/profile.jpg`,
+    'alumniOf': {
+      '@type': 'CollegeOrUniversity',
+      'name': 'Kalasalingam Academy of Research and Education'
+    },
     'sameAs': [
       'https://github.com/adithyanp2005gt-dotcom',
       'https://www.linkedin.com/in/adithyan-p272005'

@@ -61,5 +61,6 @@ export interface SocialLinks {
   email: string;
   github: string;
   linkedin: string;
+  instagram?: string;
   resumeUrl: string;
 }

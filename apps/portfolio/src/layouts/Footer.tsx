@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Github, Linkedin, Instagram } from 'lucide-react';
 import { socialLinks } from '../data/socials';
 import { Container } from '../components/layout/LayoutPrimitives';
 
@@ -52,6 +52,17 @@ export const Footer: React.FC = () => {
             >
               <Linkedin size={18} />
             </a>
+            {socialLinks.instagram && (
+              <a
+                href={socialLinks.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#9A9A9A] hover:text-[#4F8CFF] transition-colors duration-300"
+                aria-label="Instagram"
+              >
+                <Instagram size={18} />
+              </a>
+            )}
           </div>
 
           {/* Copyright Tag */}

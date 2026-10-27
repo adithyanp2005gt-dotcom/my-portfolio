@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, FileDown, CheckCircle } from 'lucide-react';
+import { Mail, Github, Linkedin, Instagram, FileDown, CheckCircle } from 'lucide-react';
 import { socialLinks } from '../data/socials';
 import { Container, Section, SectionHeading, Grid, Stack } from '../components/layout/LayoutPrimitives';
 import { Button } from '../components/ui/Button';
@@ -121,6 +121,16 @@ export const Contact: React.FC = () => {
                 >
                   <Linkedin size={16} /> linkedin.com/in/adithyan-p272005
                 </a>
+                {socialLinks.instagram && (
+                  <a
+                    href={socialLinks.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 text-secondary hover:text-accent text-sm transition-colors duration-300 font-light"
+                  >
+                    <Instagram size={16} /> {socialLinks.instagram.replace(/^https?:\/\/(www\.)?instagram\.com\//, '@')}
+                  </a>
+                )}
               </Stack>
 
               {/* Resume download */}
