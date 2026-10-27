@@ -45,17 +45,7 @@ export const AdminLayout: React.FC = () => {
             {!collapsed && (
               <div className="flex items-center gap-2">
                 <div className="w-6 h-6 rounded-[6px] overflow-hidden border border-neutral-border">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full">
-                    <rect width="100" height="100" fill="#141414" />
-                    <path
-                      d="M30 75 L50 25 L70 75 L85 75 M40 50 L60 50"
-                      stroke="#F5F5F5"
-                      strokeWidth="8"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                    />
-                  </svg>
+                  <img src="/logo.png" alt="Console" className="w-full h-full object-cover" />
                 </div>
                 <span className="font-sans font-medium text-[10px] tracking-[0.2em] uppercase text-primary">
                   CONSOLE
