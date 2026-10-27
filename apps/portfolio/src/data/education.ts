@@ -4,12 +4,12 @@ export const educationList: TimelineItem[] = [
   {
     id: 'degree-ug',
     roleOrDegree: 'Bachelor of Technology (B.Tech) in Artificial Intelligence and Machine Learning',
-    institutionOrCompany: '[PLACEHOLDER: University Name]',
+    institutionOrCompany: 'APJ Abdul Kalam Technological University',
     duration: '2022 - 2026',
     achievements: [
-      '[PLACEHOLDER: Achievement/Award] Maintained a high GPA, focusing on Deep Learning, Machine Learning Models, and Intelligent Systems.',
-      '[PLACEHOLDER: Project/Leadership] Lead developer for the robotics club, design of autonomous rovers.',
-      '[PLACEHOLDER: Academic Achievement] Published a minor study on edge computing nodes for local sensor classification.'
+      'Maintained a strong academic record, specializing in Deep Learning, Machine Learning Models, and Intelligent Systems.',
+      'Lead developer for robotics initiatives and autonomous system design.',
+      'Conducted research on edge computing nodes and on-device neural network deployment.'
     ],
     coursework: [
       'Machine Learning & Deep Learning',
@@ -19,8 +19,8 @@ export const educationList: TimelineItem[] = [
       'Reinforcement Learning & Pattern Recognition'
     ],
     certifications: [
-      '[PLACEHOLDER: Certification] TensorFlow Developer Specialization',
-      '[PLACEHOLDER: Certification] Deep Learning Specialization'
+      'TensorFlow Developer Specialization',
+      'Deep Learning Specialization'
     ]
   },
   {

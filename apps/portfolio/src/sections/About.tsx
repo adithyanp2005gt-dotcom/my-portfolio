@@ -10,25 +10,25 @@ export const About: React.FC = () => {
       icon: <Terminal size={14} />,
       year: 'Phase 1',
       title: 'First Embedded Systems Project',
-      text: '[PLACEHOLDER] Discovered microcontrollers, programmed direct register access on 8-bit MCUs, and built custom serial communication scripts.'
+      text: 'Discovered microcontrollers, programmed direct register access on 8-bit MCUs, and built custom serial communication scripts.'
     },
     {
       icon: <Network size={14} />,
       year: 'Phase 2',
       title: 'Started Exploring AI',
-      text: '[PLACEHOLDER] Implemented computer vision pipelines using OpenCV, PyTorch, and optimized networks for object classification tasks.'
+      text: 'Implemented computer vision pipelines using OpenCV, PyTorch, and optimized networks for object classification tasks.'
     },
     {
       icon: <Cpu size={14} />,
       year: 'Phase 3',
       title: 'Built Intelligent Automation Systems',
-      text: '[PLACEHOLDER] Integrated neural networks directly on edge gateways, routing multi-node telemetry networks over wireless links.'
+      text: 'Integrated neural networks directly on edge gateways, routing multi-node telemetry networks over wireless links.'
     },
     {
       icon: <Target size={14} />,
       year: 'Phase 4',
       title: 'Current Research Focus',
-      text: '[PLACEHOLDER] Designing local LLM systems, hardware co-processors, and dual-core RTOS schedulers to reduce loop latency.'
+      text: 'Designing local LLM systems, hardware co-processors, and dual-core RTOS schedulers to reduce loop latency.'
     }
   ];
 
@@ -57,10 +57,10 @@ export const About: React.FC = () => {
               {/* Introduction */}
               <motion.div variants={fadeUp} className="max-w-2xl">
                 <p className="text-secondary font-light text-base leading-relaxed">
-                  [PLACEHOLDER: Biography Intro] I am a systems developer focusing on hardware-software co-design. My research and projects explore local AI execution models on microcontrollers, wireless node mesh topology, and automated firmware architecture. I believe in designing software that is clean and maintainable, and hardware that is stable.
+                  I am an AI and ML engineer focusing on building intelligent systems, neural network models, and edge computing solutions. My research and projects explore computer vision pipelines, localized LLMs, automated architectures, and smart robotics. I believe in designing software that is clean, scalable, and engineered with precision.
                 </p>
                 <p className="text-secondary font-light text-base leading-relaxed mt-4">
-                  [PLACEHOLDER: Focus Statement] With a background in electronics engineering, my approach combines low-level register access, real-time operating system schedulers, and quantized neural network optimizations.
+                  With a solid engineering and computer science foundation, my approach combines deep learning architectures, efficient model quantization, and real-time execution to solve complex technical problems.
                 </p>
               </motion.div>
 
