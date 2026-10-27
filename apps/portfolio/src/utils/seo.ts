@@ -85,6 +85,7 @@ export const injectPersonSchema = (): void => {
       'Adhi Creations',
       'adithyan p adhi creations',
       'atithyan p adhi creations',
+      'sher_lock_2710',
       'Adithyan P',
       'Adithyan',
       'Aadhi Creations'
@@ -99,7 +100,8 @@ export const injectPersonSchema = (): void => {
     },
     'sameAs': [
       'https://github.com/adithyanp2005gt-dotcom',
-      'https://www.linkedin.com/in/adithyan-p272005'
+      'https://www.linkedin.com/in/adithyan-p272005',
+      'https://www.instagram.com/sher_lock_2710'
     ]
   };
 

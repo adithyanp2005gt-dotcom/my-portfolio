@@ -96,52 +96,28 @@ export const About: React.FC = () => {
 
             </Stack>
 
-            {/* Right: Abstract Schematic Portrait Placeholder */}
+            {/* Right: Portrait Photo */}
             <motion.div
               variants={fadeUp}
-              className="bg-surface border border-neutral-border p-6 rounded-[20px] shadow-premium flex items-center justify-center select-none"
+              className="bg-surface border border-neutral-border p-4 rounded-[20px] shadow-premium flex items-center justify-center select-none"
             >
               <Stack spacing="md" className="items-center w-full">
-                {/* SVG Blueprint Schematic Portrait */}
-                <div className="w-full aspect-[3/4] bg-bg rounded-[16px] border border-neutral-border flex items-center justify-center relative overflow-hidden">
-                  
-                  {/* Faint Grid Lines */}
-                  <div className="absolute inset-0 bg-[linear-gradient(to_right,%23161616_1px,transparent_1px),linear-gradient(to_bottom,%23161616_1px,transparent_1px)] bg-[size:20px_20px]" />
-                  
-                  {/* Schematic Node Layout */}
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" className="w-4/5 h-4/5 relative z-10">
-                    <circle cx="100" cy="130" r="40" stroke="#252525" strokeWidth="1" fill="none" />
-                    <circle cx="100" cy="130" r="60" stroke="#252525" strokeWidth="1" strokeDasharray="4 4" fill="none" />
-                    
-                    {/* Node Connections */}
-                    <line x1="100" y1="30" x2="100" y2="230" stroke="#252525" strokeWidth="1" />
-                    <line x1="30" y1="130" x2="170" y2="130" stroke="#252525" strokeWidth="1" />
-                    
-                    {/* Center AL Monogram */}
-                    <rect x="75" y="105" width="50" height="50" rx="10" fill="#141414" stroke="#4F8CFF" strokeWidth="1.5" />
-                    <path d="M85 140 L100 115 L115 140 L122 140 M92 130 L108 130" stroke="#F5F5F5" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-                    
-                    {/* Floating Sensor Nodes */}
-                    <circle cx="100" cy="30" r="5" fill="#4F8CFF" />
-                    <circle cx="100" cy="230" r="5" fill="#3DDC84" />
-                    <circle cx="30" cy="130" r="5" fill="#9A9A9A" />
-                    <circle cx="170" cy="130" r="5" fill="#9A9A9A" />
-
-                    {/* Sensor Labels */}
-                    <text x="100" y="20" fill="#9A9A9A" fontSize="8" fontFamily="sans-serif" textAnchor="middle">AI_ENGINE</text>
-                    <text x="100" y="245" fill="#9A9A9A" fontSize="8" fontFamily="sans-serif" textAnchor="middle">MCU_IO</text>
-                    <text x="25" y="120" fill="#9A9A9A" fontSize="8" fontFamily="sans-serif" textAnchor="end">SPI</text>
-                    <text x="175" y="120" fill="#9A9A9A" fontSize="8" fontFamily="sans-serif" textAnchor="start">I2C</text>
-                  </svg>
-
+                {/* Photo Container */}
+                <div className="w-full aspect-[3/4] bg-bg rounded-[16px] border border-neutral-border/60 overflow-hidden relative group">
+                  <img
+                    src="/profile.jpg"
+                    alt="ADITHYAN P - AI & ML Engineer"
+                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 pointer-events-none" />
                 </div>
 
-                <div className="text-center w-full">
+                <div className="text-center w-full pb-1">
                   <span className="text-xs uppercase tracking-wider text-primary font-medium block">
-                    AL_SCHEMATIC_01
+                    ADITHYAN P
                   </span>
-                  <span className="text-[10px] text-secondary opacity-60 uppercase tracking-widest mt-1 block">
-                    systems engineering block
+                  <span className="text-[10px] text-secondary opacity-75 uppercase tracking-widest mt-0.5 block">
+                    AI & ML Engineer
                   </span>
                 </div>
               </Stack>
