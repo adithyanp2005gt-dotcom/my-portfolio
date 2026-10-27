@@ -4,7 +4,7 @@ export const educationList: TimelineItem[] = [
   {
     id: 'degree-ug',
     roleOrDegree: 'Bachelor of Technology (B.Tech) in Artificial Intelligence and Machine Learning',
-    institutionOrCompany: 'APJ Abdul Kalam Technological University',
+    institutionOrCompany: 'Kalasalingam Academy of Research and Education',
     duration: '2022 - 2026',
     achievements: [
       'Maintained a strong academic record, specializing in Deep Learning, Machine Learning Models, and Intelligent Systems.',
