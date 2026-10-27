@@ -124,7 +124,18 @@ export const Navbar: React.FC = () => {
             aria-label="Adithyan Home"
           >
             <div className="w-8 h-8 rounded-[8px] overflow-hidden border border-neutral-border group-hover:border-accent transition-colors duration-300">
-              <img src="/favicon.svg" alt="ADITHYAN P" className="w-full h-full object-cover" />
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full">
+                <rect width="100" height="100" fill="#141414" />
+                <path
+                  d="M30 75 L50 25 L70 75 L85 75 M40 50 L60 50"
+                  stroke="#F5F5F5"
+                  strokeWidth="8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                  className="group-hover:stroke-accent transition-colors duration-300"
+                />
+              </svg>
             </div>
             <span className="font-sans font-medium text-xs tracking-[0.2em] uppercase text-primary">
               ADITHYAN P
