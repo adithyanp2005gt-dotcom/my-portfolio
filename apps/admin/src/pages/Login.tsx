@@ -15,9 +15,11 @@ export const Login: React.FC = () => {
     setError('');
     setLoading(true);
 
-    // Mock Authentication layer for initial console login
+    const validUsername = import.meta.env.VITE_ADMIN_USERNAME || 'Adhi@162006';
+    const validPassword = import.meta.env.VITE_ADMIN_PASSWORD || 'Arsha@272005';
+
     setTimeout(() => {
-      if (username === 'admin' && password === 'admin') {
+      if (username === validUsername && password === validPassword) {
         localStorage.setItem('adithyan_platform_token', 'mock_jwt_session_token');
         navigate('/dashboard');
       } else {
@@ -66,7 +68,7 @@ export const Login: React.FC = () => {
               id="username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              placeholder="e.g. admin"
+              placeholder="Enter username"
               className="w-full bg-bg border border-neutral-border focus:border-accent text-primary px-4 py-3 rounded-[12px] text-xs font-sans focus:outline-none transition-colors duration-300"
             />
           </div>
