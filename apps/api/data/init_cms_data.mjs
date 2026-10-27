@@ -43,9 +43,9 @@ const cmsData = {
   skills: skills.length > 0 ? skills : [],
   rd: rd.length > 0 ? rd : [],
   settings: {
-    siteTitle: 'ADITHYAN P | AI & Embedded Systems Engineer',
+    siteTitle: 'ADITHYAN P | AI & ML Engineer',
     name: 'ADITHYAN P',
-    description: 'Portfolio of ADITHYAN P, AI & Embedded Systems Developer.',
+    description: 'Portfolio of ADITHYAN P, AI & ML Engineer.',
     email: 'adithyanp2005gt@gmail.com',
     github: 'https://github.com/adithyanp2005gt-dotcom',
     linkedin: 'https://www.linkedin.com/in/adithyan-p272005',

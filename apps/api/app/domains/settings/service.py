@@ -16,14 +16,14 @@ from app.domains.settings.schemas import SettingsDto, SettingsUpdate
 # Seed configurations used when database record is not yet initialized
 DEFAULT_CONFIG: Dict[str, Any] = {
     "heroTitle": "Adithyan",
-    "heroSubtitle": "AI Developer & Embedded Systems Engineer",
-    "aboutContent": "I design intelligent software and embedded systems combining precision and reliable code.",
+    "heroSubtitle": "AI & ML Engineer",
+    "aboutContent": "I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering.",
     "contactEmail": "adithyanp2005gt@gmail.com",
     "resumeUrl": "/uploads/resume.pdf",
     "githubLink": "https://github.com/adithyanp2005gt-dotcom",
     "linkedinLink": "https://linkedin.com/in/adithyan-dev",
-    "seoTitle": "Adithyan | AI & Embedded Systems Engineer",
-    "seoDescription": "Portfolio case studies showcasing firmware engineering and IoT networks.",
+    "seoTitle": "ADITHYAN P | AI & ML Engineer",
+    "seoDescription": "Portfolio case studies showcasing AI, machine learning models, and intelligent systems.",
     "footerLine": "Building intelligent systems with precision.",
     "themeSettings": {
         "primaryColor": "#4F8CFF",

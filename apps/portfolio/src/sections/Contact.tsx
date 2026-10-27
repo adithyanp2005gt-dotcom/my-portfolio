@@ -94,7 +94,7 @@ export const Contact: React.FC = () => {
             {/* Left: Contact Info */}
             <Stack spacing="lg" className="max-w-md">
               <p className="text-secondary font-light text-base leading-relaxed">
-                Feel free to reach out for research collaborations, project discussions, or technology opportunities. I am always open to exploring complex AI and embedded hardware problems.
+                Feel free to reach out for research collaborations, project discussions, or technology opportunities. I am always open to exploring complex AI and machine learning challenges.
               </p>
 
               {/* Direct Link Options */}

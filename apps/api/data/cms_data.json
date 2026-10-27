@@ -314,13 +314,13 @@
     }
   ],
   "settings": {
-    "siteTitle": "ADITHYAN P | AI & Embedded Systems Engineer",
+    "siteTitle": "ADITHYAN P | AI & ML Engineer",
     "name": "ADITHYAN P",
-    "description": "Portfolio of ADITHYAN P, AI & Embedded Systems Developer.",
+    "description": "Portfolio of ADITHYAN P, AI & ML Engineer.",
     "email": "adithyanp2005gt@gmail.com",
     "github": "https://github.com/adithyanp2005gt-dotcom",
     "linkedin": "https://www.linkedin.com/in/adithyan-p272005",
     "resumeUrl": "/resume.pdf",
-    "heroText": "I design intelligent software and embedded systems that combine AI, automation, and reliable engineering."
+    "heroText": "I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering."
   }
 }

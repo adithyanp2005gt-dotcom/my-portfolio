@@ -6,9 +6,9 @@ import { Button } from '../../../portfolio/src/components/ui/Button';
 import { fadeUp, staggerContainer } from '../constants/animations';
 
 export const SettingsCMS: React.FC = () => {
-  const [siteTitle, setSiteTitle] = useState('ADITHYAN P | AI & Embedded Systems Engineer');
-  const [description, setDescription] = useState('Portfolio of ADITHYAN P, AI & Embedded Systems Developer.');
-  const [heroText, setHeroText] = useState('I design intelligent software and embedded systems that combine AI, automation, and reliable engineering.');
+  const [siteTitle, setSiteTitle] = useState('ADITHYAN P | AI & ML Engineer');
+  const [description, setDescription] = useState('Portfolio of ADITHYAN P, AI & ML Engineer.');
+  const [heroText, setHeroText] = useState('I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering.');
   const [notification, setNotification] = useState<string | null>(null);
 
   useEffect(() => {

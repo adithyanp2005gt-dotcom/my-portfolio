@@ -81,8 +81,8 @@ export const injectPersonSchema = (): void => {
     '@context': 'https://schema.org',
     '@type': 'Person',
     'name': 'ADITHYAN P',
-    'jobTitle': 'AI & Embedded Systems Engineer',
-    'description': 'I design intelligent software and embedded systems that combine AI, automation, and reliable engineering.',
+    'jobTitle': 'AI & ML Engineer',
+    'description': 'I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering.',
     'url': window.location.origin,
     'sameAs': [
       'https://github.com/adithyanp2005gt-dotcom',

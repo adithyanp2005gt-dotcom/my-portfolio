@@ -16,10 +16,10 @@ export const Footer: React.FC = () => {
             ADITHYAN P
           </span>
           <span className="text-xs text-[#9A9A9A] block mb-6 font-light">
-            AI & Embedded Systems Engineer
+            AI & ML Engineer
           </span>
           <p className="text-[#9A9A9A] text-sm font-light leading-relaxed">
-            Building intelligent software and embedded systems with precision.
+            Building intelligent AI and machine learning systems with precision.
           </p>
         </div>
 

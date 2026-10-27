@@ -1,4 +1,4 @@
-# Adithyan — AI & Embedded Systems Engineer Portfolio
+# Adithyan — AI & ML Engineer Portfolio
 
 A premium, product-grade personal portfolio website built with React 19, TypeScript, Tailwind CSS v4, and Framer Motion. 
 

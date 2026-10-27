@@ -5,7 +5,7 @@ import { Container, Section } from '../components/layout/LayoutPrimitives';
 import { fadeUp, staggerContainer } from '../constants/animations';
 
 export const Hero: React.FC = () => {
-  const [heroText, setHeroText] = useState('I design intelligent software and embedded systems that combine AI, automation, and reliable engineering.');
+  const [heroText, setHeroText] = useState('I build intelligent AI and machine learning systems combining deep learning, computer vision, and reliable engineering.');
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [isDarkVideoLoaded, setIsDarkVideoLoaded] = useState(false);
   
@@ -158,7 +158,7 @@ export const Hero: React.FC = () => {
               variants={fadeUp}
               className="text-xl sm:text-2xl text-secondary font-medium tracking-tight mb-6 transition-colors duration-500"
             >
-              AI Developer &bull; Embedded Systems Engineer
+              AI & ML Engineer
             </motion.h2>
 
             <motion.p
